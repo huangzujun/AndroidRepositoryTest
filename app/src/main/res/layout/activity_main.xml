@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="关于Android的一些小测试"/>
+
+    <Button
+        android:id="@+id/btn_getImgByNetwork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:text="使用glide框架显示网络图片"/>
+
+    <Button
+        android:id="@+id/btn_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:text="ListView-列表视图"/>
+
+    <Button
+        android:id="@+id/btn_gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:text="GridView-网格视图"/>
+
+    <Button
+        android:id="@+id/btn_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:text="RecyclerView-用于大量数据展示"/>
+
+</LinearLayout>
+
