@@ -1,1 +1,1 @@
-This is a readme.txt. pc
+This is a readme.txt
