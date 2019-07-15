@@ -1,2 +1,2 @@
-This is a readme.txt. pc
-hzj进行修改，冲突会产生吗？
+This is a readme.txt
+删除尾部pc并尝试修改，解决冲突。
